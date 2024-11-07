@@ -1,0 +1,23 @@
+{
+    "name": "FixedPoint_MPU6050",
+    "version": "0.1",
+    "description": "Library for MPU6050 which uses fixed point arithmetics.",
+    "keywords": "MPU6050, fixed point",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rj79/FixedPoint_MPU6050.git"
+    },
+    "authors": [
+        {
+            "name": "Robert Johansson",
+            "email": "robertrockar@live.com",
+            "url": "",
+            "maintainer": true
+        }
+    ],
+    "license": "MIT",
+    "homepage": "",
+    "dependencies": {"fixedpoint": "https://github.com/rj79/FixedPoint"},
+    "frameworks": "Arduino",
+    "platforms": "*"
+}
