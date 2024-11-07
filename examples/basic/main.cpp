@@ -1,7 +1,7 @@
 #include <Arduino.h>
-#include "FixedPoint_MPU6050.h"
+#include "MPU6050_FixedPoint.h"
 
-FixedPoint_MPU6050 MPU;
+MPU6050_FixedPoint MPU;
 unsigned long NextRead;
 Vector3Fix GyroVector;
 Vector3Fix AccVector;

@@ -1,11 +1,11 @@
 {
-    "name": "FixedPoint_MPU6050",
+    "name": "MPU6050_FixedPoint",
     "version": "0.1",
     "description": "Library for MPU6050 which uses fixed point arithmetics.",
     "keywords": "MPU6050, fixed point",
     "repository": {
         "type": "git",
-        "url": "https://github.com/rj79/FixedPoint_MPU6050.git"
+        "url": "https://github.com/rj79/MPU6050_FixedPoint.git"
     },
     "authors": [
         {

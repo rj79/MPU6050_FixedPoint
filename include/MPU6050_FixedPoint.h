@@ -7,8 +7,8 @@
  * MPU-6000/MPU-6050 Product Specification, PS-MPU-6000A-00, rev 3.4
  * MPU-6000/MPU-6050 Register Map and Descriptions, RM-MPU-6000A-00, rev. 4.2
  */
-#ifndef FIXEDPOINT_MPU6050_H
-#define FIXEDPOINT_MPU6050_H
+#ifndef MPU6050_FIXED_POINT_H
+#define MPU6050_FIXED_POINT_H
 
 #include "fixedpoint.h"
 #include "Vector3Fix.h"
@@ -62,11 +62,11 @@ enum MPU6050_Register
     MPU6050_REG_PWR_MGMGT_1 = 0x6b
 };
 
-class FixedPoint_MPU6050
+class MPU6050_FixedPoint
 {
 public:
-    FixedPoint_MPU6050(uint8_t address=0x68);
-    ~FixedPoint_MPU6050();
+    MPU6050_FixedPoint(uint8_t address=0x68);
+    ~MPU6050_FixedPoint();
 
     bool begin();
     void getGyroAccTemp(Vector3Fix& gyroVector, Vector3Fix& accVector, fixed& temp);
@@ -87,4 +87,4 @@ private:
     bool setAccelRange(MPU6050_AccelRange accelRange);
 };
 
-#endif 
+#endif
